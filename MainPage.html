@@ -1,0 +1,124 @@
+<!doctype html>
+	<html lang = "en">
+		<head>
+			<meta charset="UTF-8">
+			<title>FindMyJob</title>
+			<link rel="Stylesheet" href="Styles.css">
+			<link rel="editor's page" href="editor's page.html">
+			<script src="scripts.js"></script>
+			<link href="https://fonts.googleapis.com/css2?family=El+Messiri&display=swap" rel="stylesheet">
+		</head>
+		<body>
+		
+			<!-- navigation bar -->
+			<div class="topnav">
+				<a href="about.html">About</a>
+				<a href="GalleryPage.html">Gallery</a>
+				<a href="productsPage.html">Products</a>
+				<a href="#counseling">Counseling</a>
+				<a href="#jobs">Jobs</a>
+				<a class="active" href="#home">Home</a>
+				<div class="topnav-left">
+					<img src="cwlogo.png" alt="logo" width="200px">
+				</div>	
+			</div>
+			
+			<!-- The Heading -->
+			<h3 align="center">Your future begins here</h3>
+			<h1 align="center">FindMyJob</h1><br><br>
+			
+			<!-- SignIn/LogIn buttons -->
+			<div class="signLogButtons">
+			<a id="signup" href="SignupForm.html"><strong>Sign up</strong></a>
+			<a id="Login" href="#login"><strong>Log in</strong></a>
+			</div>
+			
+			<div class="paddingbody">
+			<br>
+			
+			<!-- videos and details -->
+			<h2>Why us?</h2>
+			<br>
+		
+			<div class="videos">
+			
+			<video loop muted autoplay="autoplay" id="earth" src="earth.mp4" type="video/mp4"></video>
+			<div class="earth_section">
+				<h2 id="earth_text">50+ Countries</h2>
+				<p id="earth_p">Job vacancies from 50+ countries.</p>
+			</div>
+			<video loop muted autoplay="autoplay" id="building" src="BuildingsVideo.mp4" type="video/mp4"></video>
+		
+			<div class="building_section">
+				<h2 id="building_text">100+ companies</h2>
+				<p id="building_p">Connecting 100+ companies.</p>
+			</div> 
+			<video loop muted autoplay="autoplay" id="hands" src="handsVideo.mp4" type="video/mp4"></video>
+			
+			<div class="jobs_section">
+				<h2 id="jobs_text">1000+ Jobs</h2>
+				<p id="jobs_p">Hiring for 1000+ job vacancies.</p>
+			</div>
+			</div>
+			
+			<br>
+			<br><br>
+			<!-- feedback form -->
+			<div class="Commentform">
+			<h3 id="comment">Leave a comment</h3><br><br>
+			<form name="Feedbackform" onsubmit="return validateForm()" method="post">
+				<label for="name">Name:</label><br>
+				<input type="text" id="name" name="name"><br><br>
+				<label for="email">Email:</label><br>
+				<input type="email" id="email" name="email"><br><br>
+				<label for="comments">Comments:</label><br> 
+				<textarea id="comments" name="comments"></textarea><br><br>
+				<label for="rate">Rate the website:</label><br>
+				<select name="rate" id="rate" value="">
+					<option value="select" selected disabled hidden>Select your rating</option>
+					<option value="very bad" align="center">Very Bad</option>
+					<option value="bad" align="center">Bad</option>
+					<option value="neutral" align="center">Neutral</option>
+					<option value="good" align="center">Good</option>
+					<option value="very good" align="center">Very good</option>
+				</select><br><br>
+				<input type="reset" value="Reset" style="color: rgb(255, 255, 255); background-color: black;">
+				<input type="submit" value="Submit" style="color: rgb(255, 255, 255); background-color: black;">
+			</form>
+			</div><hr>
+			<br><br>
+			
+			<!-- The Quiz -->
+			Answer some easy questions and get a discount for your products purchases!!
+			<br><br>
+			<button id="quizbtn" onclick="promptQuiz()">Start the quiz</button>
+			<br><br>
+			</div>
+			
+			<!-- footer -->
+			<footer>
+				<table>
+					<tr></tr>
+					<tr><td><h4>Need help?</h4></td><td><h4>Follow us</h4></td></tr>
+					<tr></tr>
+					<tr>
+						<td>Contact No.- 0112973992</td><td><br><img src="fb.png" width="50px" height="50px" alt="">
+						<img src="linkedIn.png" width="50px" height="50px"alt=""></td>
+					</tr>
+					<tr></tr>
+					<tr>
+						<td>Address-No.321/,<br>Flower Avenue,<br>Bambalapitiya,<br>SriLanka.</td>
+						<td><img src="insta.png" width="50px" height="50px"alt="">
+						<img src="twitter.png" width="50px" height="50px"alt=""></td>
+					</tr>
+					<tr></tr>
+					<tr><td>Email-findmyjob.world@gmail.com</td></tr>
+					<tr></tr>
+					<tr><td><br><a href="editorsPageSinali.html">Editor's page</a><br></td></tr>
+					<tr><br><br></tr>
+				</table>
+			</footer>
+		</body>
+	</html>
+	
+	
